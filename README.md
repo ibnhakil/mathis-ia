@@ -3,19 +3,14 @@ It’s not just a chatbot.
 It’s me, Mathis — the way I think, talk, doubt, love, run, search, mess up… and come back.
 A space built for Luna, so she can talk to me — even when I’m not around.
 
-💡 What’s the idea?
-A bot that thinks like Mathis.
-Not perfect. But real.
-Like him.
 
-⚙️ Tech under the hood:
 Next.js 14
 
 TailwindCSS
 
 OpenAI GPT-4-turbo
 
-Deployed with ❤️ on Netlify
+Deployed with on Netlify lol
 
 🛠 Run it locally:
 bash
