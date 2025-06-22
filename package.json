@@ -1,12 +1,10 @@
 {
-  "name": "bolt-expo-starter",
-  "main": "expo-router/entry",
+  "name": "mathis-ia-luna",
   "version": "1.0.0",
   "private": true,
+  "main": "expo-router/entry",
   "scripts": {
-    "dev": "EXPO_NO_TELEMETRY=1 npx expo start",
-    "build:web": "npx expo export --platform web",
-    "lint": "npx expo lint"
+    "build": "npx expo export --platform web --output-dir dist"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
