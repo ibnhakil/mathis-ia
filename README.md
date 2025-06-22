@@ -1,7 +1,7 @@
-Mathis IA – Not just a chatbot.
+Mathis IA Not just a chatbot.
 It’s not just a chatbot.
-It’s me, Mathis — the way I think, talk, doubt, love, run, search, mess up… and come back.
-A space built for Luna, so she can talk to me — even when I’m not around.
+It’s me, Mathis the way I think, talk, doubt, love, run, search, mess up… and come back.
+A space built for Luna, so she can talk to me even when I’m not around
 
 
 Next.js 14
