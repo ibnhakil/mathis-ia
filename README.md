@@ -1,37 +1,40 @@
+Mathis IA – Not just a chatbot.
+It’s not just a chatbot.
+It’s me, Mathis — the way I think, talk, doubt, love, run, search, mess up… and come back.
+A space built for Luna, so she can talk to me — even when I’m not around.
 
-# Mathis IA – Un Chatbot Réel, Humain, et Profond
+💡 What’s the idea?
+A bot that thinks like Mathis.
+Not perfect. But real.
+Like him.
 
-Une application web en Next.js + OpenAI pour parler avec une version vivante et sincère de Mathis.
+⚙️ Tech under the hood:
+Next.js 14
 
-## ✨ Description
-> "Tu veux pas juste un bot. Tu veux **Mathis**. Avec ses punchlines, ses doutes, sa foi, et son amour pour Luna."
+TailwindCSS
 
-Cette app imite la façon de penser, parler et réagir de Mathis (ENTP-A, musulman, amoureux, imparfait mais vrai) pour offrir à Luna un espace de dialogue unique, intime et sincère.
+OpenAI GPT-4-turbo
 
-## ⚙️ Stack
-- Next.js 14
-- TailwindCSS
-- OpenAI GPT-4-turbo
-- Déployé sur Netlify
+Deployed with ❤️ on Netlify
 
-## 🚀 Lancer en local
-
-```bash
-git clone https://github.com/votre-utilisateur/mathis-ia.git
+🛠 Run it locally:
+bash
+Copier
+Modifier
+git clone https://github.com/your-username/mathis-ia.git
 cd mathis-ia
 npm install
 cp .env.example .env
-# Ajoutez votre clé OpenAI dans .env
+# Add your OpenAI key in .env
 npm run dev
-```
+🌐 Deploying on Netlify:
+Nothing fancy — Netlify auto-detects Next.js.
+Just make sure to add your OPENAI_API_KEY in the environment variables.
 
-## 🌐 Déploiement Netlify
-Rien à faire : Netlify détecte Next.js. Configurez juste la variable `OPENAI_API_KEY` dans les paramètres du projet.
+🗂 Structure:
+/pages/api/chat.ts → the backend route that sends messages to OpenAI
 
-## 📁 Structure
-- `/pages/api/chat.ts` – backend qui envoie le prompt et les messages à OpenAI
-- `/app.tsx` – frontend façon ChatGPT, avec thèmes, drapeaux 🇱🇧 🇪🇸, et messages dynamiques
+/app.tsx → the frontend, ChatGPT-style, with themes, flags 🇱🇧 🇪🇸, and a vibe that’s 100% him
 
----
 
-Made with ❤️ for Luna.
+
