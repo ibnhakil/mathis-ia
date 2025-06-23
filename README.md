@@ -1,62 +1,77 @@
-Ce projet était simple… en apparence.
-Je voulais créer une IA personnalisée, une extension de moi-même, qui pourrait continuer à parler à Luna, même quand je ne suis pas là.
-Pas une IA classique. Une IA incarnée, avec ma manière de penser, mes réflexes, mes blagues pourries, mes failles, mon cynisme, mon amour, mes contradictions.
-Un truc sincère. Vrai. Poétique. Brut parfois, mais jamais faux.
-
-L’objectif :
-Qu’elle puisse discuter avec “moi”, à toute heure, sur un site à part, dans une interface douce, intime, simple.
-Juste elle et moi. Un iMessage avec une âme.
-
-🛠️ Le développement
-J’ai commencé avec React + Vite + Tailwind.
-Puis j’ai voulu tout faire moi-même :
-
-UI façon iMessage
-
-Intégration d’une API IA personnalisée
-
-Gestion de la mémoire conversationnelle
-
-Un emoji 🤫 qui s’anime subtilement
-
-Mais rapidement, j’ai été rattrapé par la technique, les limites de temps, et l’envie d’aller droit au but.
-Je suis perfectionniste, et je procrastine – pas un bon combo pour faire un projet from scratch.
-Le design ne me plaisait jamais vraiment.
-Les animations me semblaient “trop”.
-Et le build plantait souvent (Netlify, Vercel… j’ai tout essayé)
-🔄 Le pivot – Bolt
-Alors j’ai tranché.
-J’ai décidé de laisser une partie de l’exécution à une IA (ironie), via Bolt.
-J’ai rédigé un prompt ultra précis pour obtenir une landing page publique
-J’ai laissé tomber certaines idées :
-
-Le chat en ligne
-
-La mémoire des conversations
-
-La personnalisation poussée
-
-L’intégration vocale
-
-Le back-end avec base de données
-
-📦 Ce dépôt, du coup ?
-Ce dépôt est la trace du premier prototype.
-Ce que j’ai tenté. Ce que j’ai appris.
-Et ce que j’ai dû lâcher pour faire place à l’essentiel.
-
-Si tu regardes le code, tu verras :
-
-Des composants React que j’ai testés puis abandonnés
-
-Une tentative de structuration propre
-
-Des essais de design
-
-C’est imparfait. Mais c’est moi, à ce moment-là.
-
- VERSION 1.0
 
 
+This project was simple… or so I thought.
+
+I wanted to create a **custom AI**, an extension of myself, that could keep talking to **Luna**, even when I’m not there.  
+Not a classic AI.  
+An embodied one — with my way of thinking, my sarcasm, my stupid jokes, my flaws, my love, my contradictions.  
+Something **sincere**. Real. Poetic. Raw at times, but never fake.
+
+### 🎯 The goal
+
+That she could talk to “me”, anytime, on a private site, in a soft, intimate, simple interface.  
+Just her and me.  
+Like iMessage — but with a soul.
+
+---
+
+## 🛠️ The development
+
+I started with **React + Vite + Tailwind**.  
+I wanted to do it all by myself:
+
+- A full chat UI, iMessage-style  
+- Custom GPT API integration  
+- Memory and context handling  
+- An animated 🤫 emoji to give it life  
+
+But very quickly, reality hit:  
+**the tech, time limits, and my need to get to the emotional core**.
+
+I’m a perfectionist. And a procrastinator.  
+Not the best combo for building something from scratch.
+
+The design never felt right.  
+The animations always felt too much.  
+The build failed more than once (Netlify, Vercel... I tried everything, even spiritual rituals).
+
+---
+
+## 🔄 The pivot — Bolt
+
+So I made a choice.  
+I handed part of the execution to another AI (ironically) — via **Bolt**.  
+I wrote a highly detailed prompt to generate a **public landing page** that says just one thing:
+
+> *“This place isn’t for you.”*
+
+And I dropped several features:
+
+- The online chat  
+- Conversation memory  
+- Deep customization  
+- Voice integration  
+- Backend & database setup  
+
+---
+
+## 📦 So… what’s in this repo?
+
+This repo is the trace of the **first prototype**.
+
+What I tried.  
+What I learned.  
+What I had to give up to focus on **what really mattered**.
+
+If you look through the code, you’ll find:
+
+- React components I built… then abandoned  
+- A first attempt at clean structure  
+- Design experiments that never felt “enough”
+
+It’s imperfect.  
+But it’s me — exactly where I was at that moment.
+
+VERSION 1.0
 
 
